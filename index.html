@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="./Iconos/logo.svg" alt="Logo"/>
+            <div class="mobile-menu">
+                <input type="checkbox" id="hamburguesa"/>
+                <label for="hamburguesa" class="label-hamburguesa">
+                    <div class="burger-line"></div>
+                </label>
+                <nav class="nav-menu-movil">
+                    <ul>
+                        <li><a href="#link-episodio">EPISODIOS</a></li>
+                        <li><a href="#link-nosotros">NOSOTROS</a></li>
+                        <li><a href="#link-entrevista">ENTREVISTAS</a></li>
+                        <li><a href="#link-topico">TÓPICOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section class="introduccion">
+            <h1>Hello <span class="mundo">world</span> 
+                <span class="blue">pale blue dot <span class="punto">.</span></span>
+            </h1>
+            <p class="texto-intro">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <button class="boton-intro">CONOCÉ MÁS</button>
+        </section>
+
+        <section class="episodios mascara-polygon">
+            <h2 id="link-episodio">Episodios</h2>
+            <div>
+                <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe class="spotify" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </section>
+
+        <section class="nosotros">
+            <div class="telefono">
+                <img id="link-nosotros" class="phone" src="./Imagenes/phone.png" alt="Celular">
+            </div>
+            <div class="texto-nosotros">
+                <h3>De dónde <span class="venimos">venimos</span></h3>
+                <p class="texto-us1">Our posturings, our imagined 
+                self-importance, the delusion that we have some 
+                provileged position in the Universe, are challenged 
+                by this point of pale light.
+                </p>
+                <p class="texto-us2">Our planet is a lonely speck in the 
+                great enveloping cosmic dark. In our obscurity, in
+                all this vastness, there is no hint that help will
+                come from elsewhere to save us from ourselves.
+                </p>
+            </div>
+        </section>
+
+        <section class="entrevistas">
+            <h4 id="link-entrevista">Invitadas/os <span class="estelar">estelares</span></h4>
+            <div class="fotos-invitadas">
+                <img src="./Imagenes/grace-hopper.png" alt="">
+                <img src="./Imagenes/Katie-Bouman.png" alt="">
+                <img src="./Imagenes/Margaret_Hamilton.png" alt="">
+                <img src="./Imagenes/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
+                <img src="./Imagenes/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+                <img src="./Imagenes/susan-kare.png" alt="">
+            </div>
+        </section>
+
+        <section class="topicos">
+            <h5 id="link-topico">Algunos de <span class="temas">nuestros temas</span></h5>
+            <div>
+                <fig>
+                <img src="./Iconos/icon1.svg" alt="Hojas">
+                <figcaption>Trabajo remoto</figcaption>
+                </fig>
+                <fig>
+                    <img src="./Iconos/icon2.svg" alt="Cerebro">
+                    <figcaption>Repensando la</figcaption>
+                    <figcaption>programación</figcaption>
+                </fig>
+                <fig>
+                    <img src="./Iconos/icon3.svg" alt="PC">
+                    <figcaption>Bases del código</figcaption>
+                </fig>
+                <fig>
+                    <img src="./Iconos/icon4.svg" alt="Redes">
+                    <figcaption>Seguridad informática</figcaption>
+                </fig>
+            </div>
+        </section>
+
+        <section class="novedades mascara-nov">
+            <h6>¿Querés las últimas novedades?</h6>
+            <button class="boton-nov">ESCUCHÁ LOS EPISODIOS</button>
+        </section>
+
+        <footer>
+            <span>© 2019- Hello blue pale dot</span>
+            <div>
+                <a href="https://www.spotify.com/pa/" target="_blank"><img src="./Iconos/spotify.svg" alt="Spotify"/></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./Iconos/instagram.svg" alt="Instagram"/></a>
+                <a href="https://twitter.com/" target="_blank"><img src="./Iconos/twitter.svg" alt="Twitter"/></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./Iconos/facebook-circular-logo.svg" alt="Facebook"/></a>
+                <a href="https://telegram.org/" target="_blank"><img src="./Iconos/telegram.svg" alt="Telegram"/></a>
+            </div>
+        </footer>
+    
+    </body>
+
+</html>
